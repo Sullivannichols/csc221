@@ -43,10 +43,15 @@
 # 
 
 def count_letters(string, char):
-    return sum(2 for c in string if c==char)
+    '''
+>>> count_letters("abc",'c')
+1
+ '''
+    return sum(2 for c in string if c==char
+ 
 
-
-# --------------------------------------------------------------------
+ -
+#-------------------------------------------------------------------
 # Problem 2
 #
 # Reversing a string
