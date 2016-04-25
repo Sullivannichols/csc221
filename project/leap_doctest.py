@@ -1,5 +1,7 @@
 import doctest
 
+from leap import is_leap_year(year)
+
 def year(n):
     """ 
     Calculates the n-th is a leap year 
