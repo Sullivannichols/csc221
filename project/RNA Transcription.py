@@ -4,13 +4,13 @@ print("\n")
 
 user = int(input("Enter a dna to check\n:"))
 
-dna[0] 
-'C' 
-dna[1] 
-'T' 
-dna[2] 
-'G' 
 dna[3] 
+'C' 
+dna[2] 
+'T' 
+dna[1] 
+'G' 
+dna[0] 
 'A' 
 
 upper = raw_input('type in something lowercase.')
