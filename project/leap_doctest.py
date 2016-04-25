@@ -1,6 +1,6 @@
 import doctest
 
-from leap import is_leap_year(year)
+from year import is_leap_year
 
 def year(n):
     """ 
