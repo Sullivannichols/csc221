@@ -12,7 +12,7 @@ from dna Nucleotide Count import rna_count
     
     def test_count_one_of_each(self):
         self.assertEqual(
-            {'A': 1, 'C': 1, 'G': 1, 'T': 1},
+            {'A': 1, 'C': 1, 'G': 1, 'U': 1},
             letter_count('A C G U')
         )
 
