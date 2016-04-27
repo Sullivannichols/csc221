@@ -11,7 +11,7 @@ if base == 'A':
        totalC += 1
    elif base == 'G':
        totalG += 1
-   elif base == 'T':
+   elif base == 'U':
        totalT += 1
        
     return count
