@@ -11,8 +11,8 @@ def rna_count(dna):
     totalC += 1
     >>> dna('G') 
     totalG += 1
-    >>> dna('T')
-    totalT += 1
+    >>> dna('U')
+    totalU += 1
     >>> 
     """
 
