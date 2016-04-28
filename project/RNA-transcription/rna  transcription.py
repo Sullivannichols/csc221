@@ -4,8 +4,6 @@ print("\n")
 
 user = int(input("Enter a dna to check\n:"))
 
-
-
 upper = raw_input('type in something lowercase.')
 lower = raw_input('type in the same thing caps lock.')
 print upper.upper()
