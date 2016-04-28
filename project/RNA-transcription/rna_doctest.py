@@ -5,13 +5,13 @@ from dna import to_rna
 def dna(n):
     """ 
      replacing each nucleotide with its complement
-    >>> dna(G)
+    >>> to_rna(G)
     C
-    >>> dna(C)
+    >>> to_rna(C)
     G
-    >>> dna(T) 
+    >>> to_rna(T) 
     A
-    >>> dna(A)
+    >>> to_rna(A)
     U
     >>> 
     """
