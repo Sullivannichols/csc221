@@ -4,14 +4,13 @@ from RNA Nucleotide Count import rna_count
 
 def rna_count(dna):
     """ 
-    Count the n-th is a rna_count(dna)
-    >>> dna('A')
+    >>> rna_count('A')
     totalA += 1
-    >>> dna('C')
+    >>> rna_count('C')
     totalC += 1
-    >>> dna('G') 
+    >>> rna_count('G') 
     totalG += 1
-    >>> dna('U')
+    >>> rna_count('U')
     totalU += 1
     >>> 
     """
