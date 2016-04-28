@@ -2,7 +2,7 @@ import doctest
 
 from dna import to_rna
 
-def dna(n):
+def to_rna(n):
     """ 
      replacing each nucleotide with its complement
     >>> to_rna(G)
