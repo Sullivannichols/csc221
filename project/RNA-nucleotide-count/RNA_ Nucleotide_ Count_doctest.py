@@ -5,13 +5,13 @@ from RNA Nucleotide Count import rna_count
 def rna_count(dna):
     """ 
     >>> rna_count('A')
-    totalA += 1
-    >>> rna_count('C')
-    totalC += 1
-    >>> rna_count('G') 
-    totalG += 1
-    >>> rna_count('U')
-    totalU += 1
+    1
+    >>> rna_count('CCC')
+    3
+    >>> rna_count('GGGG')
+    4
+    >>> rna_count('UU')
+    2
     >>> 
     """
 
