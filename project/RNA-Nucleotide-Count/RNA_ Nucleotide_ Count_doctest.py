@@ -12,8 +12,10 @@ def rna_count(dna):
     4
     >>> rna_count('UU')
     2
-    >>> 
+    >>> rna_count('ACCCGGGGUU')
+rna_count({'A': 1, 'C': 3, 'G': 4, 'U': 2})
     """
+    
 
     return True
 
