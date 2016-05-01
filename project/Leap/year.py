@@ -9,15 +9,15 @@ def is_leap_year(year):
     >>> is_leap_year(1996)
     True
     '''
-    if  400 == 0:
+    
+    if year % 400 == 0:
         return True
-    elif  100 ==0:
-        return False
-    elif  is_leap_year == 0:
-        return True
-    elif is_leap_year != 0:
-        return False
+    elif year % 100 == 0:
+        return False  
+    elif year % 4 == 0:
+        return True  
     else:
-        return True
+        return False
+
 
 
