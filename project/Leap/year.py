@@ -2,11 +2,11 @@
 
 def is_leap_year(year):
     ''' 
-    >>> is_leap_year(2000)
+    >>> is_leap_year(2016)
     True
-    >>> is_leap_year(1900)
+    >>> is_leap_year(1994)
     False
-    >>> is_leap_year(1996)
+    >>> is_leap_year(2020)
     True
     '''
     
