@@ -1,7 +1,5 @@
 import unittest
 
-from dna import rna_strand_count
-
 from strands import rna_strand_count
 
 class TestStringMethods(unittest.TestCase):
